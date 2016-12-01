@@ -65,9 +65,11 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.bacon \
-    libshim_camera \
     Snap
+
+# BoringSSL compatibility with OpenSSL blobs
+PRODUCT_PACKAGES += \
+    libboringssl-compat
 
 # Charger
 PRODUCT_PACKAGES += \
