@@ -109,6 +109,10 @@ PRODUCT_COPY_FILES += \
 # IPC router config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
+    
+# Needed for Trusted Face (Face Unlock)
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full 
 
 # Keystore
 PRODUCT_PACKAGES += \
