@@ -258,3 +258,7 @@ endif
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
+
+
+# Include package config fragments
+include $(LOCAL_PATH)/product/*.mk
