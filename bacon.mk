@@ -24,9 +24,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay vendor/extra/overlays/phone-108
 I_WANT_QUAIL_STAR=true
 I_WANT_A_QUAIL_STAR=true
 
-# Device Handler
-PRODUCT_PACKAGES += DeviceHandler
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
